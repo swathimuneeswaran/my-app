@@ -74,7 +74,7 @@ const Header = () => {
           <div
             className={`lg:flex gap-5 items-center ${
               menuOpen
-                ? "flex-col justify-center items-center bg-white absolute top-[60px] left-0 w-full overflow-y-hidden p-4 shadow-lg text-center"
+                ? "flex-col justify-center items-center bg-white z-20 absolute top-[60px] left-0 w-full overflow-y-hidden p-4 shadow-lg text-center"
                 : "hidden"
             } lg:flex`}
           >
