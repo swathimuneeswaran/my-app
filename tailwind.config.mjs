@@ -8,9 +8,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#2C404C",
+        secondary: {
+          100: "#E2E2D5",
+          200: "#888883",
+        },
       },
+      screens: {
+       esm:{max:"570px"},
+      }
     },
   },
   plugins: [],
