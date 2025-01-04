@@ -16,6 +16,7 @@ export default {
       },
       screens: {
        esm:{max:"570px"},
+       
       }
     },
   },

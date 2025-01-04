@@ -64,7 +64,6 @@ export default function Home() {
             )}
           </div>
 
-          {/* Filters Section */}
           <div className="w-[50%] sm:w-[20%] relative md:hidden">
             <button
               className="w-full text-primary font-semibold text-center py-2 border border-gray-300 bg-white flex items-center justify-between"
@@ -135,7 +134,6 @@ export default function Home() {
               key={item.id}
               className="w-[250px] h-auto flex flex-col items-center esm:mx-auto"
             >
-              {/* Image Section */}
               <div className="w-[200px] h-[200px] relative ">
                 <Image
                   src={item.image}
@@ -146,7 +144,6 @@ export default function Home() {
                 />
               </div>
 
-              {/* Text Section */}
               <div className="w-full bg-white p-2">
                 <h1 className="text-[#707070] text-[15px] underline cursor-pointer">
                   {item.title}
@@ -168,72 +165,68 @@ export default function Home() {
       </div>
 
       <div className="w-[95%] mx-auto mt-5 mb-4">
-  <p className="text-[12px] text-[#2c404c]">
-    Ceiling fans cool you in the summer and warm you in the winter, all
-    for just pennies a day. They are extremely efficient: even at high
-    speeds they use less energy than a 75-watt light bulb. Actually, fans
-    save energy, with cooling costs alone lowered as much as 40 percent,
-    according to a study by Florida Power and Light. In the summer, fans
-    create a wind chill effect that makes a temperature of 78°– 80°F feel
-    like 72°F. So by using them you can set your thermostat higher. On
-    most fans, the summer setting is a counter-clockwise rotation, viewed
-    from below. In the winter, fans run in reverse (clockwise), reclaiming
-    lost heat from the ceiling. They provide an even, comfortable
-    temperature by moving hot air back down to the living areas below.
-    Even though ceiling fans have been around for more than a century,
-    they are more popular today than ever. If you are planning a purchase,
-    use these helpful tips to make a better buy. <br />
-    <br />
-    When shopping for a ceiling fan, you may find it difficult to
-    determine why one costs $50 and another $500. At first glance there
-    may appear to be no difference. Only when you begin to examine them
-    closely, armed with the information that follows, will you be able to
-    recognize the qualities that will assure years and years of beauty and
-    comfort. Inexpensive fans may look good when new, and they may even
-    run well at first. After continued use, however, they will become
-    noisy; or they will warp, wobble or quickly wear out. Selecting a
-    proper ceiling fan should be done as carefully as picking a piece of
-    fine furniture.
-    <br />
-    <br />
-    The reason poorly made fans wobble is because of cheap blade
-    materials, rotors and/or improper sealing processes are used. Blade
-    brackets should have exact degrees of pitch or angles, while blades
-    should be matched in carefully weighed and balanced sets.
-    <br />
-    <br />
-    Those that do wear out have undergone poor manufacturing techniques or
-    inadequate testing and inspection. Other problems that promote wear
-    and tear are incorrectly matched motor size and blade pitch. Defective
-    motor windings can cause electrical shorts. And poorly installed
-    on/off pull chains can be pulled out of the housing.
-    <br />
-    <br />
-    When searching for a ceiling please look for these features which are
-    all found in one of our top fan manufacturers, Craftmade.
-  </p>
-  
-  <ul  className="pl-5 text-[12px] text-[#2c404c] list-inside">
-    <li> A heavy duty motor for smooth, quiet performance </li>
-    <li>
-      A 16 pole motor with 2,000+ feet of copper windings for greater
-      efficiency and smoother performance
-    </li>
-    <li> Multiple capacitors to control starting and running</li>
-    <li> Die-cast aluminum rotors for cool running</li>
-    <li>
-      Stamped steel or die-cast zinc housing Heavy duty bearings that
-      never need oiling because they are permanently lubricated
-    </li>
-    <li> 3-speed reversible switching for summer and winter</li>
-    <li>
-      12°, 14° or 16° blade pitch which greatly increases air flow
-    </li>
-    <li> Factory-installed gaskets to reduce noise and vibration.</li>
-  </ul>
-</div>
+        <p className="text-[12px] text-[#2c404c]">
+          Ceiling fans cool you in the summer and warm you in the winter, all
+          for just pennies a day. They are extremely efficient: even at high
+          speeds they use less energy than a 75-watt light bulb. Actually, fans
+          save energy, with cooling costs alone lowered as much as 40 percent,
+          according to a study by Florida Power and Light. In the summer, fans
+          create a wind chill effect that makes a temperature of 78°– 80°F feel
+          like 72°F. So by using them you can set your thermostat higher. On
+          most fans, the summer setting is a counter-clockwise rotation, viewed
+          from below. In the winter, fans run in reverse (clockwise), reclaiming
+          lost heat from the ceiling. They provide an even, comfortable
+          temperature by moving hot air back down to the living areas below.
+          Even though ceiling fans have been around for more than a century,
+          they are more popular today than ever. If you are planning a purchase,
+          use these helpful tips to make a better buy. <br />
+          <br />
+          When shopping for a ceiling fan, you may find it difficult to
+          determine why one costs $50 and another $500. At first glance there
+          may appear to be no difference. Only when you begin to examine them
+          closely, armed with the information that follows, will you be able to
+          recognize the qualities that will assure years and years of beauty and
+          comfort. Inexpensive fans may look good when new, and they may even
+          run well at first. After continued use, however, they will become
+          noisy; or they will warp, wobble or quickly wear out. Selecting a
+          proper ceiling fan should be done as carefully as picking a piece of
+          fine furniture.
+          <br />
+          <br />
+          The reason poorly made fans wobble is because of cheap blade
+          materials, rotors and/or improper sealing processes are used. Blade
+          brackets should have exact degrees of pitch or angles, while blades
+          should be matched in carefully weighed and balanced sets.
+          <br />
+          <br />
+          Those that do wear out have undergone poor manufacturing techniques or
+          inadequate testing and inspection. Other problems that promote wear
+          and tear are incorrectly matched motor size and blade pitch. Defective
+          motor windings can cause electrical shorts. And poorly installed
+          on/off pull chains can be pulled out of the housing.
+          <br />
+          <br />
+          When searching for a ceiling please look for these features which are
+          all found in one of our top fan manufacturers, Craftmade.
+        </p>
 
-
+        <ul className="pl-5 text-[12px] text-[#2c404c] list-inside">
+          <li> A heavy duty motor for smooth, quiet performance </li>
+          <li>
+            A 16 pole motor with 2,000+ feet of copper windings for greater
+            efficiency and smoother performance
+          </li>
+          <li> Multiple capacitors to control starting and running</li>
+          <li> Die-cast aluminum rotors for cool running</li>
+          <li>
+            Stamped steel or die-cast zinc housing Heavy duty bearings that
+            never need oiling because they are permanently lubricated
+          </li>
+          <li> 3-speed reversible switching for summer and winter</li>
+          <li>12°, 14° or 16° blade pitch which greatly increases air flow</li>
+          <li> Factory-installed gaskets to reduce noise and vibration.</li>
+        </ul>
+      </div>
     </>
   );
 }

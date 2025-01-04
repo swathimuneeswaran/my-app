@@ -5,19 +5,16 @@ import { useState } from "react";
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false); 
+  const [menuOpen, setMenuOpen] = useState(false);
 
- 
   const handleMouseEnter = () => {
     setClick(true);
   };
 
- 
   const handleMouseLeave = () => {
     setClick(false);
   };
 
-  
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
@@ -26,11 +23,10 @@ const Header = () => {
     <>
       <section id="navbar">
         <nav className="navbar navbar-expand-lg navbar-light bg-gray-200 flex justify-between items-center h-[70px] px-4 lg:px-10">
-         
           <div
             className="flex items-center gap-2 cursor-pointer relative"
             onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave} 
+            onMouseLeave={handleMouseLeave}
           >
             <h1 className="font-bold text-[#2C404C]">Call Center Hours</h1>
             <p className="text-[13px] ">
@@ -38,7 +34,7 @@ const Header = () => {
             </p>
             {click && (
               <div
-                className="text-[13px] text-black absolute top-5 bg-white p-2 border border-t-4 border-gray-200 leading-7 w-[350px]"
+                className="text-[13px] absolute z-20 text-black absolute top-5 bg-white p-2 border border-t-4 border-gray-200 leading-7 w-[350px]"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
@@ -66,17 +62,15 @@ const Header = () => {
             )}
           </div>
 
-        
           <div className="lg:hidden">
             <button
               className="text-[#2C404C] text-2xl"
               onClick={handleMenuToggle}
             >
-              &#9776; 
+              &#9776;
             </button>
           </div>
 
-        
           <div
             className={`lg:flex gap-5 items-center ${
               menuOpen
@@ -90,7 +84,7 @@ const Header = () => {
                   Save Upto 10%
                 </button>
               </li>
-              <li className="p-3 text-[14px] text-primary hover:bg-[#f5f5f5] rounded-md">
+              <li className="p-6 text-[14px] text-primary bg-white hover:bg-[#f5f5f5] ">
                 <a href="#">Are you a Pro?</a>
               </li>
               <li className="p-3 text-[14px] text-primary hover:bg-[#f5f5f5] rounded-md">
